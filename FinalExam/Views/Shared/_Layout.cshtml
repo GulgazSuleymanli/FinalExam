@@ -63,7 +63,18 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a asp-area="Manage" asp-controller="Dashboard" asp-action="Index" class="nav-link scrollto" href="#contact"><h6>Admin Panel</h6></a></li>
+          
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-area="Manage" asp-controller="Account" asp-action="Register" class="nav-link scrollto">Register</a></li>
+                        <li><a asp-area="Manage" asp-controller="Account" asp-action="Login" class="nav-link scrollto">Login</a></li>
+                    }
+                    else
+                    {
+                        <li><a asp-area="Manage" asp-controller="Dashboard" asp-action="Index" class="nav-link scrollto">Admin Panel</a></li>
+                        <li><a asp-area="Manage" asp-controller="Account" asp-action="Logout" class="nav-link scrollto">Logout</a></li>
+                    }
+
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>

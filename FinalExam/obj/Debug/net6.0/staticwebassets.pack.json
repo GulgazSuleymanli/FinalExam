@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ll novbe\\Desktop\\Gulgaz\\FinalExam\\FinalExam\\wwwroot\\Uploads\\TeamImages\\0984edb3-ccc5-40c9-ae4d-c1049d13a115why-us.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\TeamImages\\0984edb3-ccc5-40c9-ae4d-c1049d13a115why-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ll novbe\\Desktop\\Gulgaz\\FinalExam\\FinalExam\\wwwroot\\Uploads\\TeamImages\\1567d98d-3ee5-42fa-aae3-a0125808c30fhero-bg.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\TeamImages\\1567d98d-3ee5-42fa-aae3-a0125808c30fhero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ll novbe\\Desktop\\Gulgaz\\FinalExam\\FinalExam\\wwwroot\\Uploads\\TeamImages\\89ef9f6d-9e12-496d-9ea6-2b3baa1dc6acblog-2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\TeamImages\\89ef9f6d-9e12-496d-9ea6-2b3baa1dc6acblog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ll novbe\\Desktop\\Gulgaz\\FinalExam\\FinalExam\\wwwroot\\Uploads\\TeamImages\\96681f8c-6bcf-40c9-96ab-eccd85f6a64dcta-bg.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\TeamImages\\96681f8c-6bcf-40c9-96ab-eccd85f6a64dcta-bg.jpg"
+    },
+    {
       "Id": "C:\\Users\\ll novbe\\Desktop\\Gulgaz\\FinalExam\\FinalExam\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
